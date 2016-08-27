@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Ecom Store</a>
+          <a class="navbar-brand" href="#">Ecommerce</a>
         </div>
 
 
@@ -69,7 +69,7 @@
       </div>
     </nav>
 
-
+<!--
   </body>
-</html>
+</html>-->
 
