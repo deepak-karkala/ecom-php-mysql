@@ -1,5 +1,5 @@
 <?php
-	require_once 'scripts/header.php';
+	require_once 'header.php';
 ?>
 
 	    <!-- Carousel
@@ -61,10 +61,10 @@
    	  	<div class="col-md-12 hp1">
    	  		<h3>Welcome</h3>
    	  		<p>Sign in for the best experience</p>
-   	  		<button type="button" class="btn btn-warning btn-block">Sign in securely</button>
+   	  		<button type="button" class="btn btn-warning btn-block" disabled="disabled">Sign in securely</button>
    	  		<div class="hp11">
    	  		  <hr>
-   	  		  <p>New to Ecommerce? <a href="#">Start here</a></p>
+   	  		  <p>New to Ecommerce? <a href="allProducts.php?type=All Categories"> Start here</a></p>
    	  		</div>
    	  	</div>
    	  </div>
@@ -73,12 +73,12 @@
    	  	<div class="col-md-12 hp2">
    	  		<h4>Popular departments</h4>
    	  		<img class="img-circle" src="../images/fiction.png" width="120" height="120"><br>
-   	  		<a href="#">Fiction</a><br>
+   	  		<a href="allProducts.php?type=Fiction">Fiction</a><br>
    	  		<img class="img-circle" src="../images/fiction.png" width="120" height="120"><br>
-   	  		<a href="#">Non-Fiction</a>
+   	  		<a href="allProducts.php?type=Science">Science</a>
    	  		<div class="hp21">
    	  		  <hr>
-   	  		  <a href="#">Shop all departments</a>
+   	  		  <a href="allProducts.php">Shop all departments</a>
    	  		</div>
    	  	</div>
    	  </div>
@@ -94,7 +94,7 @@
    	  		<h3>Deals of the day</h3>
    	  		<div class="hp41">
    	  		  <hr>
-   	  		  <a href="#">Shop all deals</a>
+   	  		  <a href="allProducts.php">Shop all deals</a>
    	  		</div>
    	  	</div>
    	  </div>
@@ -113,5 +113,5 @@
 
 
 <?php
-	require_once 'scripts/header.php';
+	require_once 'header.php';
 ?>

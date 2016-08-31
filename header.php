@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Ecommerce</a>
+          <a class="navbar-brand" href="../index.php">Ecommerce</a>
         </div>
 
 
@@ -40,16 +40,16 @@
                 <div class="input-group-btn">
                   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All <span class="caret"></span></button>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Fiction</a></li>
-                    <li><a href="#">Non Fiction</a></li>
+                    <li><a href="allProducts.php?type=Fiction">Fiction</a></li>
+                    <li><a href="allProducts.php?type=Science">Science</a></li>
                   </ul>
                 </div><!-- /btn-group -->
 
-                <input type="text" class="form-control" placeholder="Search">
+                <input type="text" class="form-control" placeholder="Search All">
 
                 <span class="input-group-btn">
                   <button type="button" class="btn btn-default">
-                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span> 
+                    <a href="allProducts.php?type=All Categories"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a> 
                   </button>
                 </span>
               </div><!-- /input-group -->
@@ -60,8 +60,8 @@
 
 
           <form class="navbar-form navbar-right">
-            <button type="submit" class="btn btn-success">Sign in</button>
-            <button type="submit" class="btn btn-primary">Cart</button>
+            <button type="submit" class="btn btn-success" disabled="disabled">Sign in</button>
+            <button type="submit" class="btn btn-primary" disabled="disabled">Cart</button>
           </form>
 
 

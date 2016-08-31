@@ -4,9 +4,7 @@ body {
   /*padding-bottom: 20px;*/
 }
 
-.navbar-bottom {
-	margin-bottom: 0;
-}
+
 
 
 .hp {
@@ -91,6 +89,9 @@ body {
 
 
 /* ========== FOOTER ============ */
+.navbar-bottom {
+	margin-bottom: 0;
+}
 .footer-1 {
 	text-align: center;
 	background-color: #124C63;
