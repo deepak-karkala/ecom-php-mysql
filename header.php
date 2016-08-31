@@ -7,11 +7,11 @@
 
 	<title>Ecommerce</title>
 
-  <script type="text/javascript" src="../public/jquery/jquery-3.1.0.min.js"></script>
-  <script type="text/javascript" src="../public/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="public/jquery/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="public/bootstrap/js/bootstrap.min.js"></script>
 
-	<link href="../public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="../css/style.css" rel="stylesheet">
+	<link href="public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
   </head>
 
   <body>
