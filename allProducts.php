@@ -5,7 +5,7 @@
 
 <div class="wrapper">
 
-<link href="../css/allProducts.css" rel="stylesheet">
+<link href="css/allProducts.css" rel="stylesheet">
 <div class="container-fluid">
   <div class="row">
 
