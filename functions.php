@@ -14,7 +14,7 @@
 		if (!result) die($connection->error);
 		return $result;
 	}
-
+/*
 	function sanitizeString($var)
 	{
 		global $connection;
@@ -23,5 +23,5 @@
 		$var = stripslashes($var);
 		return $connection->mysql_real_escape_string($var);
 	}
-
+*/
 ?>
