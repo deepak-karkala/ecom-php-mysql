@@ -61,7 +61,7 @@
             <table class="table table-striped">
               <tbody>
                 <?php
-                  require_once "dispBookList.php"
+                  require(dirname(__FILE__).'/dispBookList.php');
                 ?>
               </tbody>
             </table>
