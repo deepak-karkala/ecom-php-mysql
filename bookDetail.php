@@ -16,15 +16,17 @@
 ?>
 
 <div class="wrapper">
-<link href="../css/allProducts.css" rel="stylesheet">
-<link href="../css/style.css" rel="stylesheet">
+<link href="css/allProducts.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 
   <div class="container-fluid">
   	<div class="row">
 
 
   		<div class="col-sm-3 col-md-2 sidebar">
-          <img src="../images/lotr.gif" width="500" height="800" class="img-responsive">	
+          <!--<img src="images/lotr.gif" width="500" height="800" class="img-responsive">-->
+          <?php require_once 'getImage.php'; ?>
+          <!--<img src="getImage.php" width="500" height="800" class="img-responsive">-->
     	</div>
 
 
@@ -46,16 +48,16 @@
       		<div class="book-button-add-review">
 				<h4>Add a Review</h4>
 				<h6>Kindly add a review, if you have read this book</h6>
-				<?php echo $isbn;?>
-				<form class="form-horizontal" method="post" action="addReview.php?isbn=" <?php echo $isbn ?> >
+				<form class="form-horizontal" method="post" action="addReview.php">
+				  <input type='hidden' name='isbn' value='<?php echo "$isbn";?>'/>	
 				  <div class="form-group">
-				    <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+				    <label class="col-sm-2 control-label">Name</label>
 				    <div class="col-sm-10">
-				      <input type="text" name="name" class="form-control" id="inputEmail3" placeholder="Name">
+				      <input type="text" name="name" class="form-control" placeholder="Name">
 				    </div>
 				  </div>
 				  <div class="form-group">
-				    <label for="inputEmail3" class="col-sm-2 control-label">Review</label>
+				    <label class="col-sm-2 control-label">Review</label>
 				    <div class="col-sm-10">
 				      <textarea type="text" name="review" class="form-control" rows="3" placeholder="Review"></textarea>
 				    </div>
@@ -68,7 +70,7 @@
 				</form>
 
 				<?php
-				//	require_once "addReview.php"
+					//require_once "addReview.php";
 				?>
 			</div>
 			<!-- ================================================================ -->
@@ -103,6 +105,7 @@
 			<hr>
 			<div class="cust-reviews">
 				<h4>Customer Reviews</h4>
+				<?php require_once "dispReview.php" ?>
 			</div>
       	</div>
 

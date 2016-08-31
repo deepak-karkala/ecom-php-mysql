@@ -38,9 +38,11 @@
   for ($j=0; $j<$num; ++$j)
   {
     echo "<tr>";
-    echo "<td><img src=\"../images/lotr.gif\" width=\"120\" height=\"160\"></td>"; 
+    //echo "<td><img src=\"../images/lotr.gif\" width=\"120\" height=\"160\"></td>"; 
     $row = $result->fetch_array(MYSQLI_ASSOC);
     $isbn = $row['isbn'];
+    $img = $row['image'];
+    echo '<td><img src="'.$img.'" alt="HTML5 Icon" width="120" height="160" "></td>';
     echo "<td class=\"book-title\">". 
          "<a href=\"bookDetail.php?isbn=$isbn\">" . $row['title'] . "</a><br>" . 
          "By: " . $row['author'] . "<br>" .
