@@ -1,4 +1,6 @@
 <?php
+  require_once 'functions.php';
+
   echo "<h4>Sorted by: &nbsp &nbsp" . $_POST['sort-options'] . "</h4>";
 
   $query = "SELECT * FROM books";
