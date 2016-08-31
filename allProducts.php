@@ -1,5 +1,5 @@
 <?php
-  require_once(__DIR__.'/header.php');
+  require_once(__DIR__.'header.php');
   //require_once(__DIR__.'/functions.php');
 ?>
 
@@ -61,7 +61,7 @@
             <table class="table table-striped">
               <tbody>
                 <?php
-                  require_once(__DIR__.'/dispBookList.php');
+                  require_once(__DIR__.'dispBookList.php');
                 ?>
               </tbody>
             </table>
