@@ -1,6 +1,6 @@
 <?php
-  require_once 'header.php';
-  //require_once 'functions.php';
+  require_once(__DIR__.'/header.php');
+  require_once(__DIR__.'functions.php');
 ?>
 
 <div class="wrapper">
@@ -61,7 +61,7 @@
             <table class="table table-striped">
               <tbody>
                 <?php
-                  require(dirname(__FILE__).'/dispBookList.php');
+                  require_once(__DIR__.'/dispBookList.php');
                 ?>
               </tbody>
             </table>
