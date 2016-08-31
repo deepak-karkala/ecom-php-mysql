@@ -12,36 +12,45 @@
         <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
+  
         <div class="item active">
-          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <!--<img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">-->
+          <img class="first-slide" src="library_panorama.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <h1>Ecommerce.</h1>
+              <p>One stop solution for all the top books in fiction and science categories.</p>
+              <p><a class="btn btn-lg btn-primary" href="allProducts.php" role="button">Browse gallery</a></p>
             </div>
           </div>
         </div>
+
         <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <!--<img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">-->
+          <img class="second-slide" src="hobbit.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <h1>Trending now</h1>
+              <p>Check out the latest releases in all the categories</p>
+              <p><a class="btn btn-lg btn-primary" href="allProducts.php" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
+
         <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <!--<img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">-->
+          <img class="third-slide" src="library_panorama3.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <h1>Ecommerce</h1>
+              <p>Shop here to get the best deals on fiction and science books.</p>
+              <p><a class="btn btn-lg btn-primary" href="allProducts.php" role="button">View all products</a></p>
             </div>
           </div>
         </div>
+
+
+
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -72,9 +81,9 @@
    	  <div class="col-md-3">
    	  	<div class="col-md-12 hp2">
    	  		<h4>Popular departments</h4>
-   	  		<img class="img-circle" src="../images/fiction.png" width="120" height="120"><br>
-   	  		<a href="allProducts.php?type=Fiction">Fiction</a><br>
-   	  		<img class="img-circle" src="../images/fiction.png" width="120" height="120"><br>
+   	  		<a href="allProducts.php?type=Fiction"><img class="img-circle" src="../images/fiction2.jpg" width="120" height="120"></a>
+   	  		<a href="allProducts.php?type=Fiction">Fiction</a><br><br>
+   	  		<a href="allProducts.php?type=Science"><img class="img-circle" src="../images/science.png" width="120" height="120"></a>
    	  		<a href="allProducts.php?type=Science">Science</a>
    	  		<div class="hp21">
    	  		  <hr>
@@ -86,30 +95,27 @@
    	  <div class="col-md-3">
    	  	<div class="col-md-12 hp3">
    	  		<h3>Trending today</h3>
+          <a href="bookDetail.php?isbn=5"><img class="img-thumbnail" src="tkmb.jpg" width="180" height="280"></a><br>
+          <hr>
+          <a href="bookDetail.php?isbn=5">To Kill A Mocking Bird</a>
    	  	</div>
    	  </div>
 
    	  <div class="col-md-3">
    	  	<div class="col-md-12 hp4">
    	  		<h3>Deals of the day</h3>
+          <a href="bookDetail.php?isbn=7">A Brief History Of Time</a><br>
+          <a href="bookDetail.php?isbn=7"><img class="img-thumbnail" src="bht.jpg" width="140" height="240"></a>
+          <h5>$ 170.00 (30% off)</h5>
+          <hr>
    	  		<div class="hp41">
-   	  		  <hr>
    	  		  <a href="allProducts.php">Shop all deals</a>
    	  		</div>
    	  	</div>
    	  </div>
 
-
-
    	</div>
     </div>
-
-
-
-
-
-
-
 
 
 <?php

@@ -17,10 +17,15 @@
   border-bottom: 1px solid #eee;
 }
 
+.page-header  {
+  text-align: center;
+}
 .book-title {
-  color: blue;
 }
 
+.book-details {
+
+}
 /*
  * Sidebar
  */
@@ -97,4 +102,6 @@
 .placeholder img {
   display: inline-block;
   /*border-radius: 50%;*/
+  padding:1px;
+   border:3px solid #021a40;
 }

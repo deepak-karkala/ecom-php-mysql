@@ -8,7 +8,7 @@
 	<nav class="navbar navbar-default navbar-bottom">
     <!--<div class="container">-->
       <div class="row footer-1">
-		    <p>Back to top</p>
+		    <p><a href="#">Back to top</a></p>
   	  </div>
 
   	  <div class="row footer-2 col-lg-12">

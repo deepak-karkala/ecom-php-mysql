@@ -74,8 +74,12 @@
 				?>
 			</div>
 			<!-- ================================================================ -->
+			<hr>
 
-
+			<div class="cust-reviews">
+				<h4>Customer Reviews</h4>
+				<?php require_once "dispReview.php" ?>
+			</div>
 
 
 
@@ -103,10 +107,6 @@
 				<h4>Customers Who Bought This Item Also Bought</h4>
 			</div>
 			<hr>
-			<div class="cust-reviews">
-				<h4>Customer Reviews</h4>
-				<?php require_once "dispReview.php" ?>
-			</div>
       	</div>
 
 

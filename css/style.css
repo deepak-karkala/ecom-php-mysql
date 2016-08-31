@@ -58,7 +58,7 @@ body {
 	margin-top: 20px;
 }
 .hp4 .hp41 {
-	margin-top: 300px;
+	margin-top: 0px;
 }
 
 /* =============== CAROUSEL ================ */
@@ -94,7 +94,7 @@ body {
 }
 .footer-1 {
 	text-align: center;
-	background-color: #124C63;
+	background-color: #D0EAF2; /*#124C63;*/
 	color: white;
 	/*height: 50px;*/
 }
