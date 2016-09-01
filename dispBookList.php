@@ -33,8 +33,9 @@
   }
   // ================================= //
 
-
+  echo $query;
   $result = queryMysql($query);
+  echo $query;
 
   $num = $result->num_rows;
   echo $num;
