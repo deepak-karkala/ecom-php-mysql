@@ -1,11 +1,11 @@
 <?php
-  require_once(__DIR__.'header.php');
-  //require_once(__DIR__.'/functions.php');
+  require_once(__DIR__.'/header.php');
+  require_once(__DIR__.'/functions.php');
 ?>
 
 <div class="wrapper">
 
-<!--<link href="css/allProducts.css" rel="stylesheet">-->
+<link href="css/allProducts.css" rel="stylesheet">
 <div class="container-fluid">
   <div class="row">
 
@@ -61,7 +61,7 @@
             <table class="table table-striped">
               <tbody>
                 <?php
-                  require_once(__DIR__.'dispBookList.php');
+                  require_once(__DIR__.'/dispBookList.php');
                 ?>
               </tbody>
             </table>
