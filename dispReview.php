@@ -21,7 +21,7 @@
   $isbn = $_GET['isbn'];
   $query = "SELECT * FROM reviews where isbn=$isbn";
   $result = queryMysql($query);
-
+echo $query;
   $num = $result->num_rows;
   for ($j=0; $j<$num; ++$j)
   {
