@@ -8,10 +8,10 @@
   $dbuser = 'bedaefb56bd440';
   $dbpass = '9342281a';
 
-  echo "<h4>Sorted by: &nbsp &nbsp" . $_POST['sort-options'] . "</h4>";
-  
-  $connection = new mysqli($dbost, $dbuser, $dbpass, $dbname);
+
+  $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
   if ($connection->connect_error) die($connection->connect_error);
+  echo "<h4>Sorted by: &nbsp &nbsp" . $_POST['sort-options'] . "</h4>";
 
   function queryMysql($query)
   {

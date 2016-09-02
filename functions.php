@@ -4,7 +4,7 @@
 	$dbuser = 'bedaefb56bd440';
 	$dbpass = '9342281a';
 
-	$connection = new mysqli($dbost, $dbuser, $dbpass, $dbname);
+	$connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 	if ($connection->connect_error) die($connection->connect_error);
 
 	function queryMysql($query)
