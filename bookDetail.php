@@ -24,7 +24,6 @@
   $isbn = $_GET['isbn'];
 
   $query = "SELECT * FROM books WHERE isbn=$isbn";
-  echo $query;
   $result = queryMysql($query);
   $row = $result->fetch_array(MYSQLI_ASSOC);
   $title = $row['title'];
