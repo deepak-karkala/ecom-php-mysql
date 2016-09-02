@@ -45,6 +45,9 @@
   		<div class="col-sm-3 col-md-2 sidebar">
           <!--<img src="images/lotr.gif" width="500" height="800" class="img-responsive">-->
           <!--<?php //include(__DIR__.'/getImage.php'); ?>-->
+          <?php
+          	include('getImage.php');
+          ?>
           <!--<img src="getImage.php" width="500" height="800" class="img-responsive">-->
           <!--<?php
           /*
@@ -128,9 +131,6 @@ echo $isbn;
 					
 				  }
 				?>
-
-
-
 			</div>
 
 
