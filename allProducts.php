@@ -61,7 +61,8 @@
             <table class="table table-striped">
               <tbody>
                 <?php
-                  require_once(__DIR__.'/dispBookList.php');
+                  //require_once(__DIR__.'/dispBookList.php');
+                  include(dirname(__DIR__).'/dispBookList.php');
                 ?>
               </tbody>
             </table>

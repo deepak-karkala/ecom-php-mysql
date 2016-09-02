@@ -1,5 +1,6 @@
 <?php
-  require_once('functions.php');
+  //require_once('functions.php');
+  include(dirname(__DIR__).'/functions.php');
 
   echo "<h4>Sorted by: &nbsp &nbsp" . $_POST['sort-options'] . "</h4>";
 
