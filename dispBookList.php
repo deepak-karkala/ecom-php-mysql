@@ -2,7 +2,7 @@
   echo "<h4>Sorted by: &nbsp &nbsp" . $_POST['sort-options'] . "</h4>";
 
   //require_once('functions.php');
-  require_once(__DIR__.'/functions.php');
+  //require_once(__DIR__.'/functions.php');
 
   /*
   $dbhost = 'us-cdbr-iron-east-04.cleardb.net';
@@ -55,9 +55,9 @@
   }
   // ================================= //
 
-  echo $query;
+  //echo $query;
   $result = queryMysql($query);
-  echo $query;
+  //echo $query;
 
   $num = $result->num_rows;
   echo $num;
