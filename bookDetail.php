@@ -25,7 +25,7 @@
 
   		<div class="col-sm-3 col-md-2 sidebar">
           <!--<img src="images/lotr.gif" width="500" height="800" class="img-responsive">-->
-          <?php require_once 'getImage.php'; ?>
+          <?php require_once(__DIR__.'/getImage.php'); ?>
           <!--<img src="getImage.php" width="500" height="800" class="img-responsive">-->
     	</div>
 
@@ -78,7 +78,7 @@
 
 			<div class="cust-reviews">
 				<h4>Customer Reviews</h4>
-				<?php require_once "dispReview.php" ?>
+				<?php require_once(__DIR__.'/dispReview.php'); ?>
 			</div>
 
 
