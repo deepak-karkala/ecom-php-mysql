@@ -1,5 +1,5 @@
 <?php
-  require_once 'functions.php';
+  require_once(__DIR__.'/functions.php');
 
   $isbn = $_GET['isbn'];
   $query = "SELECT * FROM reviews where isbn=$isbn";

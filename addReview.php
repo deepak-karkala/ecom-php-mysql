@@ -1,5 +1,5 @@
 <?php
-	require_once 'functions.php';
+	require_once(__DIR__.'/functions.php');
 
 	$db_server = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 	if (!$db_server) die("Unable to connect to MySQL: " . mysqli_error());
