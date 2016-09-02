@@ -1,4 +1,5 @@
 <?php
+  echo 1;
   //require_once(__DIR__.'/functions.php');
   $dbhost = 'us-cdbr-iron-east-04.cleardb.net';
   $dbname = 'heroku_a6277021f19b465';
@@ -21,7 +22,6 @@
   $isbn = $_GET['isbn'];
   $query = "SELECT * FROM reviews where isbn=$isbn";
   $result = queryMysql($query);
-echo $query;
   $num = $result->num_rows;
   for ($j=0; $j<$num; ++$j)
   {
