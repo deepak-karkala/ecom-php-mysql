@@ -97,7 +97,8 @@
 
 			<div class="cust-reviews">
 				<h4>Customer Reviews</h4>
-				<?php require_once 'dispReview.php'; ?>
+
+				<!--<?php //require_once 'dispReview.php'; ?>-->
 				<?php 
 				  //$isbn = $_GET['isbn'];
   $query = "SELECT * FROM reviews where isbn=$isbn";
