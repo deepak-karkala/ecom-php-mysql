@@ -50,7 +50,7 @@
 			$query = "SELECT * FROM books WHERE isbn=$isbn";
 		  	$result = queryMysql($query);
 		  	$row = $result->fetch_array(MYSQLI_ASSOC);
-
+echo $isbn;
 		  	header("Content-type: image/jpeg");
 		  	$s = $row['image'];
 		  	echo '<img src="'.$s.'" alt="HTML5 Icon" width="150" height="200" ">';
