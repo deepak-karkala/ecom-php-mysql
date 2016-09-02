@@ -62,7 +62,7 @@
               <tbody>
                 <?php
                   //require_once(__DIR__.'/dispBookList.php');
-                  include(dirname(__DIR__).'/dispBookList.php');
+                  require __DIR__ . '/dispBookList.php';
                 ?>
               </tbody>
             </table>

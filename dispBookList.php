@@ -1,8 +1,9 @@
 <?php
-  //require_once('functions.php');
-  include(dirname(__DIR__).'/functions.php');
-
   echo "<h4>Sorted by: &nbsp &nbsp" . $_POST['sort-options'] . "</h4>";
+
+  //require_once('functions.php');
+  require __DIR__ . '/functions.php';
+
 
   $query = "SELECT * FROM books";
 
