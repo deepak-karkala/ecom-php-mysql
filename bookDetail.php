@@ -46,6 +46,15 @@
           <!--<img src="images/lotr.gif" width="500" height="800" class="img-responsive">-->
           <!--<?php //include(__DIR__.'/getImage.php'); ?>-->
           <!--<img src="getImage.php" width="500" height="800" class="img-responsive">-->
+          <?php
+			$query = "SELECT * FROM books WHERE isbn=$isbn";
+		  	$result = queryMysql($query);
+		  	$row = $result->fetch_array(MYSQLI_ASSOC);
+
+		  	header("Content-type: image/jpeg");
+		  	$s = $row['image'];
+		  	echo '<img src="'.$s.'" alt="HTML5 Icon" width="150" height="200" ">';
+		?>
     	</div>
 
 
@@ -87,10 +96,6 @@
 				    </div>
 				  </div>
 				</form>
-
-				<?php
-					//require_once "addReview.php";
-				?>
 			</div>
 			<!-- ================================================================ -->
 			<hr>
@@ -100,31 +105,27 @@
 
 				<!--<?php //require_once 'dispReview.php'; ?>-->
 				<?php 
-				  //$isbn = $_GET['isbn'];
-  $query = "SELECT * FROM reviews where isbn=$isbn";
-  $result = queryMysql($query);
-  $num = $result->num_rows;
-  for ($j=0; $j<$num; ++$j)
-  {
-    //echo "<td><img src=\"../images/lotr.gif\" width=\"120\" height=\"160\"></td>"; 
-    $row = $result->fetch_array(MYSQLI_ASSOC);
-    $isbn = $row['isbn'];
+				  $query = "SELECT * FROM reviews where isbn=$isbn";
+				  $result = queryMysql($query);
+				  $num = $result->num_rows;
+				  for ($j=0; $j<$num; ++$j)
+				  {
+				    //echo "<td><img src=\"../images/lotr.gif\" width=\"120\" height=\"160\"></td>"; 
+				    $row = $result->fetch_array(MYSQLI_ASSOC);
+				    $isbn = $row['isbn'];
 
-
-
-    echo 
-	"<div class=\"panel panel-default\">
-	  <div class=\"panel-heading\">
-	    <h3 class=\"panel-title\">" . $row['username'] . "</h3>
-	  </div>
-	  <div class=\"panel-body\">" .
-	    $row['review'] .
-	  "</div>
-	</div>";
-	
-    //echo "<>" . $row['username'] . $row['review'] . "</p>"; 
-  }
-?>
+				    echo 
+					"<div class=\"panel panel-default\">
+					  <div class=\"panel-heading\">
+					    <h3 class=\"panel-title\">" . $row['username'] . "</h3>
+					  </div>
+					  <div class=\"panel-body\">" .
+					    $row['review'] .
+					  "</div>
+					</div>";
+					
+				  }
+				?>
 
 
 
