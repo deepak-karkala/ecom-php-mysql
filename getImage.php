@@ -8,6 +8,5 @@
 
   	header("Content-type: image/jpeg");
   	$s = $row['image'];
-  	echo $row['title'];
   	echo '<img src="'.$s.'" alt="HTML5 Icon" width="150" height="200" ">';
 ?>
