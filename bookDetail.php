@@ -46,7 +46,7 @@
           <!--<img src="images/lotr.gif" width="500" height="800" class="img-responsive">-->
           <!--<?php //include(__DIR__.'/getImage.php'); ?>-->
           <?php
-          	include('getImage.php');
+          	include(__DIR.'/getImage.php');
           ?>
           <!--<img src="getImage.php" width="500" height="800" class="img-responsive">-->
           <!--<?php
