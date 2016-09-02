@@ -43,7 +43,7 @@
     $img = $row['image'];
     echo '<td><img src="'.$img.'" alt="HTML5 Icon" width="120" height="160" "></td>';
     echo "<td class=\"book-details\">". 
-         "<h3><a class=\"book-title\" href=". __DIR__. ".\"/bookDetail.php?isbn=$isbn\">" . $row['title'] . "</a></h3>" . 
+         "<h3><a class=\"book-title\" href=". __DIR__. "/bookDetail.php?isbn=$isbn\">" . $row['title'] . "</a></h3>" . 
          "<h4>By: " . $row['author'] . "</h4>" .
          "<h5>Price: $" . $row['price'] . "<br>" .
          "Rating: " . $row['rating'] . "</h5></td>";
