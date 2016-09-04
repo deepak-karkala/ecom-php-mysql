@@ -7,6 +7,7 @@
 	$connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 	if ($connection->connect_error) die($connection->connect_error);
 
+	/* MySQL query */
 	function queryMysql($query)
 	{
 		global $connection;

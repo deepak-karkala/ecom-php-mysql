@@ -1,5 +1,4 @@
 <?php
-  echo 1;
   //require_once(__DIR__.'/functions.php');
   $dbhost = 'us-cdbr-iron-east-04.cleardb.net';
   $dbname = 'heroku_a6277021f19b465';

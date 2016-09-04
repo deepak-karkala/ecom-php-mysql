@@ -19,8 +19,6 @@
 	}
 
 
-
-
   $isbn = $_GET['isbn'];
 
   $query = "SELECT * FROM books WHERE isbn=$isbn";

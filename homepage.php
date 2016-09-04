@@ -1,5 +1,9 @@
+<!--
+ HOMEPAGE
+-->
+
 <?php
-	require_once(__DIR__.'/header.php');
+	require_once(__DIR__.'/header.php');   // Header
 ?>
 
 	    <!-- Carousel
@@ -14,7 +18,6 @@
       <div class="carousel-inner" role="listbox">
   
         <div class="item active">
-          <!--<img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">-->
           <img class="first-slide" src="library_panorama.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
@@ -26,7 +29,6 @@
         </div>
 
         <div class="item">
-          <!--<img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">-->
           <img class="second-slide" src="hobbit.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
@@ -38,7 +40,6 @@
         </div>
 
         <div class="item">
-          <!--<img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">-->
           <img class="third-slide" src="library_panorama3.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
@@ -62,6 +63,9 @@
       </a>
     </div><!-- /.carousel -->  	
     <!-- ==================================================================================================== -->
+
+
+
 
     <div class="container-fluid">
     <div class="row">
