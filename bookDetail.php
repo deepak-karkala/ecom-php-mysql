@@ -153,6 +153,23 @@
 			<hr>
 			<div class="book-alsoBrought">
 				<h4>Customers Who Bought This Item Also Bought</h4>
+				  <div class="row placeholders">
+		            <div class="col-xs-12 col-sm-4 placeholder">
+		              <a href="bookDetail.php?isbn=1"><img src="../images/lotr.gif" width="120" height="120" class="img-responsive">
+		              <h4>The Lord of the Rings</h4></a>
+		              <span class="text-muted">J R R Tolkien</span>
+		            </div>
+		            <div class="col-xs-12 col-sm-4 placeholder">
+		              <a href="bookDetail.php?isbn=3"><img src="ta.jpg" width="120" height="120" class="img-responsive">
+		              <h4>The Alchemist</h4></a>
+		              <span class="text-muted">Paulo Coelho</span>
+		            </div>
+		            <div class="col-xs-12 col-sm-4 placeholder">
+		              <a href="bookDetail.php?isbn=8"><img src="syaj.jpg" width="120" height="120" class="img-responsive">
+		              <h4>Surely you're joking, Mr. Feynman!</h4></a>
+		              <span class="text-muted">Richard P. Feynman</span>
+		            </div>
+		          </div>
 			</div>
 			<hr>
       	</div>
